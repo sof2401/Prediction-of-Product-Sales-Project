@@ -1,1 +1,1 @@
-# Prediction-of-Product-Sales-Project
+# Prediction of Product Sales Project
