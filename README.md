@@ -15,6 +15,7 @@ In this project, we are cleaning the 'Prediction of Product Sales' dataset and u
 
 
 
+
 ## **For the Stakeholders**
 
 Overall, the model that performed the best was the GridSearchCV model. It gave us the highest R^2 values for the testing data. The MAE, MSE, and RMSE are also closer to one of the other models, which further shows us that this model is excelling in performance compared to the other models.
@@ -23,12 +24,14 @@ Overall, the model that performed the best was the GridSearchCV model. It gave u
 
 ## **Linear Regression Model**
 
-<img width="542" alt="Screenshot 2023-11-10 at 8 49 58 AM" src="https://github.com/sof2401/Prediction-of-Product-Sales-Project/assets/134681536/5b19f531-7419-4eeb-9444-1c6cea6803d1">
+The top 3 most impactful features in this model are:
 
-From the linear regression model, we can see that the coefficients modeled in our linear regression model are able to provide an R^2, in our testing metrics, of 0.567.
+1. Outlet_Establishment_Year
+2. Outlet_Identifier_OUT045
+3. Outlet_Identifier_OUT027
 
 ## **Tree-Based Model**
 
-<img width="543" alt="Screenshot 2023-11-10 at 8 58 40 AM" src="https://github.com/sof2401/Prediction-of-Product-Sales-Project/assets/134681536/0e8414e8-22af-4909-b831-8a003bd8905c">
+![download](https://github.com/sof2401/Prediction-of-Product-Sales-Project/assets/134681536/d09c0f15-af30-4fb4-9f60-661b135cf62d)
 
-Our bagging regressor model offers us a better performance in the testing data, with an R^2 of 0.580. 
+The top 5 most important features are Item_MRP, Outlet_Type_Grocery_Store, Item_Visibility, Item_Weight and Outlet_Type_Supermarket Type3.
